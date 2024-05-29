@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voleibol</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Voleibol</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#regras">Regras</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="content-section">
+        <div class="text">
+            <h2>Sobre o Voleibol</h2>
+            <p><strong>O que é o vôlei:</strong> O voleibol, ou simplesmente vôlei, é um esporte coletivo praticado por duas equipes de seis jogadores cada. O objetivo é fazer a bola tocar o chão no lado adversário da quadra, evitando que ela caia no próprio campo.</p>
+    <p><strong>Como surgiu:</strong> Criado em 1895 por William G. Morgan nos Estados Unidos, o vôlei combina elementos do basquete, beisebol, tênis e handebol.</p>
+    <p><strong>Maiores países no vôlei:</strong></p>
+    <ul>
+        <li>Brasil</li>
+        <li>Rússia</li>
+        <li>Itália</li>
+        <li>Estados Unidos</li>
+        <li>China</li>
+        </div>
+        <img src="volei1.avif" alt="Jogo de Voleibol">
+    </section>
+
+    <section id="regras" class="content-section invert">
+        <img src="volei2.jpeg" alt="Quadra de Voleibol">
+        <div class="text">
+            <h2>Regras Básicas</h2>
+            <ul>
+        <li>Composição do jogo: uma partida é disputada em sets. O vencedor é o primeiro a ganhar três sets.</li>
+        <li>Pontos: um ponto é marcado quando a bola toca o chão do lado adversário, ou quando o adversário comete um erro ou falta.</li>
+        <li>Serviço: o jogo começa com um saque, que deve ser executado de fora da linha de fundo.</li>
+        <li>Toques na bola: cada equipe pode tocar a bola até três vezes antes de devolvê-la ao outro lado.</li>
+            </ul>
+            <h2>Posições</h2>
+            <ul>
+        <li><strong>Levantador:</strong> responsável por orquestrar as jogadas de ataque.</li>
+        <li><strong>Oposto:</strong> principal atacante da equipe.</li>
+        <li><strong>Ponteiros:</strong> atacam, defendem e recebem o saque.</li>
+        <li><strong>Centrais:</strong> especialistas em bloqueio e ataques rápidos.</li>
+        <li><strong>Líbero:</strong> jogador especializado em defesa, não pode atacar nem sacar.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="galeria">
+        <h2>Galeria</h2>
+        <div class="gallery">
+            <img src="volei3.avif" alt="Jogo de Voleibol">
+            <img src="volei4.jpg" alt="Quadra de Voleibol">
+            <img src="volei6.jpg" alt="Jogadores de Voleibol">
+            <img src="volei5.jpg" alt="Jogo de Voleibol">
+            <img src="volei7.jpg" alt="Quadra de Voleibol">
+            <img src="volei8.jpg" alt="Jogadores de Voleibol">
+        </div>
+    </section>
+    <footer>
+    <p>&copy; 2024 Voleibol. Todos os direitos reservados. Desenvolvido por João Vítor.</p>
+</footer>
+<!-- Código do VLibras -->
+<!-- Início do código relacionado ao plugin VLibras -->
+<div vw class="enabled">
+    <!-- Esta div possui o atributo customizado 'vw' e a classe 'enabled', que  são usados pelo plugin VLibras para identificar e estilizar o contêiner principal do widget. -->
+   
+    <div vw-access-button class="active"></div>
+    <!-- Esta div representa o botão de acesso ao VLibras. Tem um atributo customizado 'vw-access-button' e a classe 'active', indicando que o botão está ativo e visível. -->
+   
+    <div vw-plugin-wrapper>
+        <!-- Esta div atua como um contêiner para o plugin VLibras. O atributo 'vw-plugin-wrapper' provavelmente é utilizado para o plugin identificar onde deve ser inserido seu conteúdo. -->
+       
+        <div class="vw-plugin-top-wrapper"></div>
+        <!-- Esta div interna pode ser utilizada para posicionar elementos ou funcionalidades adicionais do plugin VLibras na parte superior do widget. -->
+    </div>
+</div>
+ 
+<!-- Inclusão do script do plugin VLibras -->
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<!-- Este script carrega o arquivo JavaScript do plugin VLibras diretamente do servidor do VLibras. -->
+ 
+<script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+    <!-- Este script inicializa o widget VLibras. A função 'VLibras.Widget' é chamada com a URL base do app VLibras, configurando o widget no site. -->
+</script>
+</body>
+</html>
